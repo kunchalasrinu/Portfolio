@@ -18,18 +18,12 @@ const services = [
   },
   {
     num: '03',
-    title: 'AI-Driven Web Applications',
-    description: "Integrate artificial intelligence into web applications to enhance user experience, automate tasks, and provide personalized services.",
-    href: ""
-  },
-  {
-    num: '04',
     title: 'API Development & Integration',
     description: "Build and integrate custom APIs to connect your applications, streamline processes, and enhance functionality across platforms.",
     href: ""
   },
   {
-    num: '05',
+    num: '04',
     title: 'SEO & Performance Optimization',
     description: "Optimize your website for search engines and improve loading times to increase visibility, traffic, and user engagement.",
     href: ""

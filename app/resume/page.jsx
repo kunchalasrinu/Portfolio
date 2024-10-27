@@ -1,34 +1,34 @@
 "use client";
 
-import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs,FaWordpress,FaShopify,FaPython,FaPhp} from 'react-icons/fa';
-import {SiTailwindcss, SiNextdotjs} from 'react-icons/si';
+import {FaHtml5,FaCss3,FaJs,FaReact,FaFigma,FaNodeJs,FaWordpress,FaShopify,FaPython,FaPhp,FaBootstrap,FaJava} from 'react-icons/fa';
+import {SiTailwindcss,SiMongodb,SiExpress,SiMysql,SiCanva,SiPostman,SiNextdotjs} from 'react-icons/si';
 import Social from '@/components/Social';
 
 // about data
 
 const about = {
   title: 'About me',
-  description: "A Full Stack Developer and AI/ML enthusiast with 7+ years of experience. Currently pursuing an MS in Computer Science at CSUDH, I specialize in creating innovative tech solutions.",
+  description: "A Full Stack Developer with 1+ year of experience. current Intern at Codtech IT Solutions With Role of Full Stack Developer, I specialize in creating innovative tech solutions.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Rohan Sonawane"
+      fieldValue: "Kunchala Srinu"
     },
     {
       fieldName: "Phone",
-      fieldValue: "+1 562 350 4742"
+      fieldValue: "+91 7032727577"
     },
     {
       fieldName: "Experience",
-      fieldValue: "8+ Years"
+      fieldValue: "1+ Years"
     },
     {
       fieldName: "Address",
-      fieldValue: "Los Angeles, CA"
+      fieldValue: "Hyderabad, Telangana"
     },
     {
       fieldName: "Email",
-      fieldValue: "rohansonawane28@gmail.com"
+      fieldValue: "kunchalasrinu61@gmail.com"
     },
   ]
 };
@@ -36,32 +36,27 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
-  description:"As a Full Stack Web Developer with over seven years of experience, I've specialized in crafting secure, high-quality web solutions that prioritize user experience and system performance. My expertise spans a wide range of technologies, including PHP, Python, JavaScript (React.js, Node.js), SQL, and more.", 
+  description:"As a Full Stack Web Developer with over One year of experience, I've specialized in crafting secure, high-quality web solutions that prioritize user experience and system performance. My expertise spans a wide range of technologies, including PHP, Python, JavaScript (React.js, Node.js), SQL, and more.", 
   items:[
-    {
-      company: "CSUDH",
-      position: "AR/VR Developer",
-      duration: "2023-Present"
-    },
     {
       company: "Self-Employed",
       position: "Full Stack Web Developer",
-      duration: "2020-2023"
+      duration: "OCT 2024 - Present"
     },
     {
-      company: "Briefkase",
-      position: "TechLead - Web Developer",
-      duration: "2019-2020"
+      company: "CODTECH IT SOLUTIONS",
+      position: "Full Stack Web Developer",
+      duration: "JUL 2024 - SEPT 2024"
     },
     {
-      company: "Briefkase",
-      position: "Senior - Web Developer",
-      duration: "2017-2019"
+      company: "Oasis Infobyte",
+      position: "Python - Backend Developer",
+      duration: "MAR 2024 - MAY 2024"
     },
     {
-      company: "Briefkase",
-      position: "Junior - Web Developer",
-      duration: "2016-2017"
+      company: "Innovixion Tech",
+      position: "Frontend - Web Developer",
+      duration: "OCT 2023 - DEC 2023"
     },
   ]
 };
@@ -69,17 +64,17 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: "My Education",
-  description:"I am currently pursuing a Master of Science in Computer Science at California State University, Dominguez Hills. With a solid foundation in software engineering and over seven years of industry experience, I specialize in AI, web development, and innovative tech solutions. My academic journey and hands-on experience enable me to stay at the forefront of emerging technologies.", 
+  description:"I am current Intern at Codtech IT Solutions With Role of Full Stack Developer. With a solid foundation in software engineering and over one year of industry experience, I specialize in web development, and innovative tech solutions. My academic journey and hands-on experience enable me to stay at the forefront of emerging technologies.", 
   items:[
     {
-      institution: "CSUDH",
-      degree: "Masters in CS",
-      duration: "2023-2025"
+      institution: "Annamacharya institute of technology and sciences",
+      degree: "Diploma in CSE",
+      duration: "2017-2020"
     },
     {
-      institution: "PVPPCOE",
-      degree: "Bachelors in IT",
-      duration: "2012-2016"
+      institution: "Annamacharya institute of technology and sciences",
+      degree: "Bachelors in CSE",
+      duration: "2021-2024"
     } 
   ]
 }
@@ -87,15 +82,15 @@ const education = {
 const skills = {
   icon: '/assets/resume/cap.svg',
   title: "My skills",
-  description:"Expert in Full Stack Development, AI, and Machine Learning, with proficiency in PHP, Python, JavaScript, and frameworks like Django. Skilled in cloud platforms (AWS) and digital marketing for comprehensive solutions.", 
+  description:"Expert in Full Stack Development with proficiency in PHP, Python, JavaScript, and frameworks like ReactJs. Skilled in cloud platforms (AWS) and UI/UX Design for Better User Experience.", 
   skilllist:[
     {
       icon:<FaPython />,
       name: "Python"
     },
     {
-      icon:<FaPhp />,
-      name: "PHP"
+      icon:<FaJava />,
+      name: "Java"
     },
     {
       icon: <FaHtml5 />,
@@ -114,8 +109,8 @@ const skills = {
       name: "React.js"
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js"
+      icon: <FaBootstrap />,
+      name: "Bootstrap"
     },
     {
       icon: <SiTailwindcss />,
@@ -130,12 +125,28 @@ const skills = {
       name: "Figma"
     },
     {
-      icon:<FaWordpress />,
-      name: "WordPress"
+      icon:<SiMongodb />,
+      name: "Mongodb"
     },
     {
-      icon:<FaShopify />,
-      name: "Shopify"
+      icon:<SiExpress />,
+      name: "Express.js"
+    },
+    {
+      icon:<FaPhp />,
+      name: "Php"
+    },
+    {
+      icon:<SiMysql />,
+      name: "Mysql"
+    },
+    {
+      icon:<SiCanva />,
+      name: "Canva"
+    },
+    {
+      icon:<SiPostman />,
+      name: "Postman"
     },
 
     

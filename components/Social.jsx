@@ -2,11 +2,12 @@ import Link from "next/link";
 
 import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaLinktree} from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
+import { MdEmail } from "react-icons/md";
 
 const socials = [
-  {icon: <FaGithub />, path: "https://github.com/rohansonawane"},
-  {icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/rohanbsonawane/"},
-  {icon: <SiLinktree />, path: "https://linktr.ee/rsonawane"}
+  {icon: <FaGithub />, path: "https://github.com/kunchalasrinu"},
+  {icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/kunchalasrinu/"},
+  {icon: <MdEmail />, path: "https://kunchalasrinu61@gmail.com"}
 ]
 
 const Social = ({containerStyles, iconStyles}) => {

@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
  });
 
 export const metadata = {
-  title: "Rohan Sonawane | Portfolio",
+  title: "Kunchala Srinu | Portfolio",
   description: "Full Stack Software Developer | AI / ML | Docker, CI/CD, Jenkins | PHP, Python, JavaScript (React, Node, Next) | WordPress | UI/UX Designer | Blender, Unity Developer | API Integration Specialist | Testing",
 };
 

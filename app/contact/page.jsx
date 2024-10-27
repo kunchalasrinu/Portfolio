@@ -11,17 +11,17 @@ const infor = [
   {
   icon: <FaPhoneAlt />,
   title: "Phone",
-  description: "+1 5623504742"
+  description: "+91 7032727577"
 },
 {
   icon: <FaEnvelope />,
   title: "Email",
-  description: "rohansonawane28@gmail.com"
+  description: "kunchalasrinu61@gmail.com"
 },
 {
   icon: <FaMapMarkerAlt />,
   title: "Address",
-  description: "Los Angeles, CA - 90815"
+  description: "Hyderabad, Telangana - 508252"
 },
 ];
 
