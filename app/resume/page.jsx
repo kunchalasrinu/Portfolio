@@ -85,14 +85,6 @@ const skills = {
   description:"Expert in Full Stack Development with proficiency in PHP, Python, JavaScript, and frameworks like ReactJs. Skilled in cloud platforms (AWS) and UI/UX Design for Better User Experience.", 
   skilllist:[
     {
-      icon:<FaPython />,
-      name: "Python"
-    },
-    {
-      icon:<FaJava />,
-      name: "Java"
-    },
-    {
       icon: <FaHtml5 />,
       name: "html 5"
     },
@@ -105,10 +97,6 @@ const skills = {
       name: "JavaScript"
     },
     {
-      icon: <FaReact />,
-      name: "React.js"
-    },
-    {
       icon: <FaBootstrap />,
       name: "Bootstrap"
     },
@@ -117,28 +105,40 @@ const skills = {
       name: "tailwind.css"
     },
     {
+      icon: <FaReact />,
+      name: "React.js"
+    },
+    {
       icon: <FaNodeJs />,
       name: "node.js"
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma"
-    },
-    {
-      icon:<SiMongodb />,
-      name: "Mongodb"
     },
     {
       icon:<SiExpress />,
       name: "Express.js"
     },
     {
-      icon:<FaPhp />,
-      name: "Php"
+      icon:<SiMongodb />,
+      name: "Mongodb"
     },
     {
       icon:<SiMysql />,
       name: "Mysql"
+    },
+    {
+      icon:<FaPhp />,
+      name: "Php"
+    },
+    {
+      icon:<FaPython />,
+      name: "Python"
+    },
+    {
+      icon:<FaJava />,
+      name: "Java"
+    },
+    {
+      icon: <FaFigma />,
+      name: "Figma"
     },
     {
       icon:<SiCanva />,
@@ -148,8 +148,6 @@ const skills = {
       icon:<SiPostman />,
       name: "Postman"
     },
-
-    
   ]
 }
 
