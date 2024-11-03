@@ -13,7 +13,7 @@ const Home = () => {
           {/* Text */}
           <div className="text-center order-2 xl:order-none">
             <span className="text-xl">Full Stack Developer</span>
-            <h1 className="h1 py-7">Hello I&lsquo;m <span className="text-accent">kunchala Srinu</span></h1>
+            <h1 className="h1 py-7">Hello I&lsquo;m <span className="text-accent">Kunchala Srinu</span></h1>
             <p className=" mb-9 mt-1 text-center text-white/80">Full-stack developer with hands-on experience in creating responsive, efficient web applications using the MERN stack. Eager to join a collaborative team where I can contribute to impactful projects and grow my skills in web development.</p>
             
             <div className="flex flex-col items-center gap-8">
