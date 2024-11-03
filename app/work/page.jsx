@@ -61,7 +61,7 @@ const projects = [
     ],
     image: '/assets/work/thumb3.png',
     live: "#",
-    github:"https://github.com/rohansonawane/comment-remover",
+    github:"https://github.com/kunchalasrinu/",
   },
 
 ];
@@ -139,7 +139,7 @@ const Work = () => {
                   <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                   <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                   <div>
-                    <Image src={project.image} fill className="object-cover" alt={project.title}/>
+                    <Image src={project.image} fill className="object-contain" alt={project.title}/>
                   </div>
                   </div>
                 </SwiperSlide>
